@@ -84,7 +84,7 @@ body {
 
 .header-title {
 	position: relative;
-	max-width: 1200px;
+	max-width: 710px;
 	margin-top: 100px;
 	margin-left: auto;
 	margin-right: auto;
@@ -908,7 +908,8 @@ input:focus {
   }
 
   .menu-button {
-    border: none;
+    display: block;
+	border: none;
     width: 22px;
     height: 19px;
     background-color: transparent;
@@ -939,7 +940,7 @@ input:focus {
 										/* MEDIA TABLET  */
 
 
-@media (min-width: 641px) and (max-width: 1199px){
+@media (min-width: 741px) and (max-width: 1199px){
   .header-container, .main-container, .footer-container {
     padding: 0 35px;
   }
@@ -955,8 +956,7 @@ input:focus {
   }
 
   .header-title {
-    max-width: 650px;
-    margin-top: 85px;
+    max-width: 660px;
   }
 
   .title {
@@ -1070,7 +1070,7 @@ input:focus {
 
   										/* MEDIA MOBILE  */
 
-  @media (max-width: 640px) {
+  @media (max-width: 740px) {
 
     .header {
       display: flex;
